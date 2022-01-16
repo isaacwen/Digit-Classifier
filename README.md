@@ -42,7 +42,7 @@ With these changes I was able to achieve 99.62% accuracy.
 ## Version 4 - 99.73%
 I was not able to achieve a dramatic increase in accuracy from 99.62% using just a singular model after playing around with the hyperparameters. However, when doing some additional research I was able to identify ensemble learning as a potential improvement.
 
-To implement ensemble learning, I created three new models using different convolutional layers. Specifically, I created one model using solely convolutional layers with 3x3 filters, a second model using predominantly convolutional layers with 5x5 filters, and a third model that uses convolutional layers with 7x7 layers. The goal of using models with different convolutional layers is to have the models capture different features during training.
+To implement ensemble learning, I created three new models using different convolutional layers. Specifically, I created one model using solely convolutional layers with 3x3 filters, a second model using predominantly convolutional layers with 5x5 filters, and a third model that uses convolutional layers with 7x7 layers. The goal of using models with different convolutional layers is to have the models capture different features of the digits during training.
 
 For these three models, accuracies of 99.62%, 99.66%, and 99.65% were achieved, respectively.
 
