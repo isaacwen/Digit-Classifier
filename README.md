@@ -1,5 +1,5 @@
 # Digit Classifier
-I created a CNN for classifying handwritten digits in TensorFlow. The model is trained on the MNIST data set and my final version achieves 99.73% accuracy.
+I created several iterations of a CNN for classifying handwritten digits in TensorFlow. The models are trained on the MNIST data set and my final version achieves 99.73% accuracy.
 
 The model and trained weights for each version are in the corresponding folders. To see the accuracies for each model, see the accuracy.ipynb file.
 
